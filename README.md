@@ -46,10 +46,10 @@ $ curl -v http://127.0.0.1:8080/message/helloworld
   
 #### Endpoints
  
-GET '/statuscode/:code' => responds with HTTP status :code
-GET '/headers' => responds with payload of the request headers
-GET '/echo/:message' => responds with payload of :message
-POST '/echo' => responds with payload of request body. Note, only returns JSON encoded data
+* GET '/statuscode/:code' => responds with HTTP status :code
+* GET '/headers' => responds with payload of the request headers
+* GET '/echo/:message' => responds with payload of :message
+* POST '/echo' => responds with payload of request body. Note, only returns JSON encoded data
 
 
 ### Dependencies
